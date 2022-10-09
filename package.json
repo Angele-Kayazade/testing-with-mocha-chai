@@ -3,12 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "mocha test"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angele-Kayazade/testing-with-mocha-chai.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angele-Kayazade/testing-with-mocha-chai/issues"
+  },
+  "homepage": "https://github.com/Angele-Kayazade/testing-with-mocha-chai#readme",
   "devDependencies": {
     "chai": "^4.3.6",
     "mocha": "^10.0.0"
